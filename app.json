@@ -1,0 +1,18 @@
+{
+    "name": "Bottus",
+    "description": " Whatsapp bot.",
+    "keywords": [
+        "whatsapp",
+        "bot"
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
